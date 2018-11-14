@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: blue;
+  margin: 1em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  margin: 0.9em;
+
+}
+
+.row-1a,
+.row-1c,
+.row-3a,
+.row-3c {
+  max-width: 10vw;
+  min-width: 10vw;
+  max-height: 10vw;
+  min-height: 10vw;
+  border-radius: 50%;
+  background-color: blue;
+  box-shadow: 4px 4px 4px gray;
+
+}
+
+.row-1b,
+.row-3b {
+  max-width: 15vw;
+  min-width: 15vw;
+  max-height: 10vw;
+  min-height: 10vw;
+  background-color: green;
+  box-shadow: 4px 4px 4px gray;
+
+}
+
+.row-2a,
+.row-2c {
+  max-width: 10vw;
+  min-width: 10vw;
+  max-height: 15vw;
+  min-height: 15vw;
+  background-color: red;
+  box-shadow: 4px 4px 4px gray;
+}
+
+.row-2b {
+  max-width: 15vw;
+  min-width: 15vw;
+  max-height: 15vw;
+  min-height: 15vw;
+  background-color: purple;
+  box-shadow: 4px 4px 4px gray;
+  transform: rotate(45deg)
+}
+
+.row-1a {
+  background-image: url('../img/zakia.jpg');
+  background-size: cover;
+}
+
+.row-1b {
+  background-image: url('../img/rashrafi.jpg');
+  background-size: cover;
+}
+
+.row-1c {
+  background-image: url('../img/abi.jpeg');
+  background-size: cover;
+}
+
+.row-2a {
+  background-image: url('../img/julio.jpg');
+  background-size: cover;
+}
+
+.row-2b {
+  background-image: url('../img/ibis-fonte.jpg');
+  background-size: cover;
+}
+
+.row-2c {
+  background-image: url('../img/brian.jpg');
+  background-size: cover;
+}
+
+.row-3a {
+  background-image: url('../img/denis.jpeg');
+  background-size: cover;
+}
+
+.row-3b {
+  background-image: url('../img/zakia.jpg');
+  background-size: cover;
+}
+
+.row-3c {
+  background-image: url('../img/jonathan.jpeg');
+  background-size: cover;
+}
